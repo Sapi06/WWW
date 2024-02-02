@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+    }
+    
+    
+    
+    header .cabecera{
+    width: 23%;
+    margin-left: 15%;
+    margin-top:  25px;
+    }
+    .topnav {
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        background-color: rgb(255, 0, 234) ;
+        padding: 0.6%;
+     }
+    
+    
+    .topnav ul{
+        list-style-type: none;
+     
+        padding: 0px 10px;
+    }
+    
+    .topnav ul li{
+        display: inline;
+        text-align: center;
+        margin: 0px 20px;
+       
+    }
+    
+    .topnav ul li a{
+       
+        padding: 14px;
+        text-decoration: none;
+        font-size: 20px;
+        background-color: rgb(255, 0, 234);
+        color: white;
+    }
+    h1{
+        margin-left: 10%;
+        color: rgb(1, 170, 255);
+        font-size: 25px;
+        margin-top: 1%;
+    }
+    main .RD{
+        width: 15%;
+        margin-left: 10%;
+        float: left;
+        margin-right: 30px;
+        margin-top: 4px;
+        margin-bottom: 3%;
+
+    }
+    .leer{
+      display: block;
+      padding: 2%;
+      background-color: rgb(0, 195, 255);
+      width: 200px;
+      text-align: center;
+      
+      margin-top: 0px;
+      margin-bottom: 0px;
+      border: 8px solid white;
+      color: white;
+      font-size: medium;
+    }
+    .grid-container {
+        display: grid;
+        grid-template-areas:
+          'area-blog area-blog area-blog area-menu';
+        gap: 10px;
+        padding: 10px;
+      }
+
+      .blog{
+        grid-area: area-blog;
+      }
+
+      .entrada_blog{
+        display: block;
+        border: 1px solid black;
+        overflow: auto;
+      }
+
+      .menu {
+        grid-area: area-menu; 
+        overflow: auto;
+        margin-left: 30px;
+      
+      }
+
+      h2{
+        margin-left: 3%;
+        color: rgb(1, 170, 255);
+        font-size: 25px;
+        margin-top: 2%;
+        margin-bottom: 5%;
+      }
+
+      
+
+
+      .grid-container-footer{
+        display: grid;
+        grid-template-areas:
+        'area-izquierda area-izquierda area-derecha area-derecha'
+        'area-abajo area-abajo area-abajo area-abajo'; 
+        background-color: rgb(250, 4, 127);
+     
+        margin-top: 5%;
+      }
+      
+      .grid-container-footer .izquierda {
+          grid-area: area-izquierda;
+          margin-right: 30px;
+          margin-top: 0px;
+          margin-left: 10px;
+          margin-bottom: 10px;
+
+      }
+
+      .grid-container-footer .derecha {
+           grid-area: area-derecha;
+           margin-left: 200px;
+           margin-right: 20px;
+           text-align: right;
+
+      }
+
+      .grid-container-footer .abajo {
+           grid-area: area-abajo;
+
+      }
+
+      h3 {
+        /* margin-left: 3%; */
+        color: rgb(244, 246, 247);
+        font-size: 25px;
+        margin-top: 20px;
+        margin-bottom: 25px;
+        margin-left: 200px;
+      }
+
+      h4{
+        background-color: rgb(104, 1, 104);
+        color: white;
+        text-align: center; 
+        padding-top: 20px;   
+        padding-bottom: 20px;
+      }
+
+      .a{
+        color: white;
+        margin-inline: 10px;
+       }
+
+      .texto{
+             color: white;
+             margin-bottom: 50px;
+             margin-left: 200px;
+             margin-right: 200px;
+      }
+      h5{
+        font-size: 30px;
+       text-align: center;
+        margin-left: 15px;
+        margin-top: 100px;
+
+
+
+      }
+    .cartas{
+            width: 100px;
+            border-radius: 100%;
+            margin-left: 30px;
+
+
+     }
+     .card1{background-color: aqua;
+
+
+     }
+     .container{
+        background-color: aqua;
+        margin-right: 1170px;
+        margin-left: 250px;
+
+     }
+     p{text-align: center;
+
+
+     }
+     h6{text-align:center ;
+
+
+
+     }
